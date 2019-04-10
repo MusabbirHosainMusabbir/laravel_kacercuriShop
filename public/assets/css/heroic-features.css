@@ -1,0 +1,114 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+    background-image: url(../img/curi.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em .5em;
+}
+
+.navbar {
+    background: #4A5678 !important;
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+#register {
+    margin: 50px 0;
+}
+
+/* Cart Page */
+.cart-items table td{
+    color: #666;
+    font-size: 15px;
+}
+
+.cart-items table td a {
+    color: red;
+    font-size: 13px;
+    color: #555;
+}
+
+.cart-items .table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+/* Checkout  */
+
+.your-order-table td {
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+/* Cart Page */
+.cart-items table td{
+    color: #666;
+    font-size: 15px;
+}
+
+.cart-items table td a {
+    color: red;
+    font-size: 13px;
+    color: #555;
+}
+
+.cart-items .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/* Checkout  */
+
+.your-order-table td {
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
